@@ -3,7 +3,7 @@ const { CityRepository } = require("../repository/index");
 class CityService {
   constructor() {
     this.cityRepository = new CityRepository();
-  }
+  } //this is different way of doing things as in city-service
 
   async createCity(data) {
     try {
