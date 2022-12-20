@@ -27,6 +27,7 @@ class CityRepository {
     //there are different ways to update
     try {
       const city = await City.update(data, {
+        //city variable stores the answer of the query which will be returned
         where: {
           id: cityId,
         },
